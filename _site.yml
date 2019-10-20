@@ -1,0 +1,14 @@
+name: "Yujia Li"
+output_dir: "."
+navbar:
+  title: "Yujia Li"
+  left:
+    - text: "Home page"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<yul178@pitt.edu.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/YujiaLi1994/
+output:
+  html_document:
+    theme: journal
