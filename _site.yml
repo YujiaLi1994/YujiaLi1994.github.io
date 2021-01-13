@@ -1,10 +1,10 @@
-name: "Yujia Li"
+name: "Home"
 output_dir: "."
 navbar:
-  title: "Yujia Li"
-  left:
-    - text: "Home page"
-      href: about.html
+  title: "Home"
+  right:
+    - text: "Research"
+      href: research.html
     - icon: fa-envelope fa-lg
       href: mailto:<yul178@pitt.edu.com>
     - icon: fa-github fa-lg

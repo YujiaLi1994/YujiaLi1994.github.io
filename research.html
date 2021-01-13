@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>About</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,11 +19,23 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -70,6 +81,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 
 
@@ -234,6 +246,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -250,6 +263,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -257,6 +333,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -269,28 +355,28 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Yujia Li</a>
+      <a class="navbar-brand" href="index.html">Home</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="about.html">Home page</a>
+  <a href="research.html">Research</a>
 </li>
 <li>
   <a href="mailto:&lt;yul178@pitt.edu.com&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="http://github.com/YujiaLi1994/">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -300,19 +386,66 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About</h1>
 
 </div>
 
 
-<div id="about-this-site" class="section level3">
-<h3>About this site</h3>
-<p>Sometimes you need to say a bit about the site – how it was made, where it’s hosted, where the source code can be found.</p>
-<p>If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.</p>
+<div id="on-going-methodological-projects" class="section level3">
+<h3>On-going Methodological Projects</h3>
+<p><font size="4">Adaptively Weighted Fisher’s Method (AW-Fisher) With Application for Multivariate Outcome Association in Omics Applications</font></p>
+<p><font size="4">Semi-Supervised Learning for RNA-seq Count Data Using Negative Binomial Mixture Model</font></p>
+<p><font size="4">Multi-layer Bayesian Sparse Negative Binomial Model for Clustering with Covariance Structure</font></p>
+<p><br /></p>
+</div>
+<div id="collaboration" class="section level3">
+<h3>Collaboration</h3>
+<p><font size="4">Dr. Hyun Jung Park in Department of Human genetics</font></p>
+<p><font size="4">Dr. Steffi Oesterreich in Magee-Women’s Research Institute</font></p>
+<p><br /></p>
+</div>
+<div id="publication" class="section level3">
+<h3>Publication</h3>
+<p><font size="4"> <strong><u>Li, Y</u></strong>, Zeng, X, Lin, C, Tseng, G. (2019) “Simultaneous Estimation of Number of Clusters and Feature Sparsity in Clustering High-Dimensional Data”. (<strong>The earlier version won 2019 ENAR distinguished student paper awards</strong>), arxiv 1909.01930 </font></p>
+<p><font size="4"> Rahman, T, Ma, T, <strong><u>Li, Y</u></strong>, Lu, T, Tseng, G. (2019). “A Sparse Negative Binomial Mixture Model for Clustering RNA-seq Count Data”. Manuscript in preparation. </font></p>
+<p><br /></p>
+</div>
+<div id="conference-presentation" class="section level3">
+<h3>Conference Presentation</h3>
+<p><font size="4"> <strong><u>Li, Y</u></strong>, Zeng, X, Lin, C, Tseng, G. (2019) “Simultaneous Estimation of Number of Clusters and Feature Sparsity in Clustering High-Dimensional Data”, Oral presentation on ENAR, Mar 25th, 2019 </font></p>
+<p><br /></p>
+</div>
+<div id="awards" class="section level3">
+<h3>Awards</h3>
+<p><font size="4">ENAR Distinguished Student Paper Award, 2019</font></p>
+<p><font size="4">Outstanding Graduate of Xiamen University, 2017</font></p>
+<p><font size="4">Meritorious Winner in Mathematical Contest in Modeling, 2016</font></p>
+<p><font size="4">The First Prize in Fujian Province in China Undergraduate Mathematical Contest in Modeling, 2015</font></p>
+<p><font size="4">Academic Excellence Scholarship-First Prize, 2015</font></p>
+<p><font size="4">Academic Excellence Scholarship-First Prize, 2014</font></p>
+<p><font size="4">Third Prize in Jing Yun Mathematical Contest in Xiamen University, 2014</font></p>
+<p><br /></p>
+</div>
+<div id="teaching-experience" class="section level3">
+<h3>Teaching Experience</h3>
+<p><font size="4">BIOST 2079-Introductory Statistical Learning for Health Science, Teaching Assistant, 2019</font></p>
+<p><br /></p>
+</div>
+<div id="selected-courses-taken" class="section level3">
+<h3>Selected Courses Taken</h3>
+<p><font size="4">CMU ML10-725: Convex Optimization, Fall 2019</font></p>
+<p><font size="4">STAT2194: High-dimensional Statistics, Spring 2019</font></p>
+<p><font size="4">HUGEN2040: Molecular Basis for Inherited Disease, Fall 2019</font></p>
+<p><br /></p>
+</div>
+<div id="paper-review-for-journals" class="section level3">
+<h3>Paper Review for Journals</h3>
+<p><font size="4">Interaction Screening by Kendall's Partial Correlation for Ultrahigh-dimensional Data with Survival Trait, Bioinformatics</font></p>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -320,7 +453,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -345,6 +478,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
