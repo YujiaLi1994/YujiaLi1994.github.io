@@ -12,8 +12,6 @@ navbar:
     - text: "Awards"
       href: Awards.html
   
-  
- 
     
 output:
   html_document:
