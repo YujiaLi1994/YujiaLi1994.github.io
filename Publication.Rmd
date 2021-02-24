@@ -10,7 +10,7 @@ output:
 ###Publication 
 ^ indicate co-first authors.
 
-* **Yujia Li**, Xiangrui Zeng, Chien-wei Lin, George C. Tseng. (2021) Simultaneous estimation of number of clusters and feature sparsity parameter in clustering high-dimensional data. Biometrics, https://doi.org/10.1111/biom.13449
+* **Yujia Li**, Xiangrui Zeng, Chien-Wei Lin, George C. Tseng. (2021) Simultaneous estimation of number of clusters and feature sparsity parameter in clustering high-dimensional data. Biometrics, https://doi.org/10.1111/biom.13449
 
 * **Yujia Li**, Jessica Toothaker, Collin McCourt, Lael Werner, Scott Snapper, Dror Shouval, Omry Koran, Sameer Agnihorti, George Tseng, Liza Konnikova. (2020) In Utero Human Intestine Harbors Unique Metabolome Including Bacterial Metabolites. JCI Insight. 5:e138751.
 
