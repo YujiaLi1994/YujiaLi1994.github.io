@@ -3,12 +3,14 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "Research"
-      href: research.html
+    - text: "publication"
+      href: publication.html
+    - text: "Experience"
+      href: Experience.html
     - icon: fa-envelope fa-lg
       href: mailto:<yul178@pitt.edu.com>
     - icon: fa-github fa-lg
       href: http://github.com/YujiaLi1994/
 output:
   html_document:
-    theme: journal
+    css: bootstrap.css

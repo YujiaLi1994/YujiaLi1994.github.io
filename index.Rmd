@@ -1,38 +1,25 @@
 ---
-title: Yujia Li 
-
-output:
-  html_document:
-    toc: true
-    toc_float: true
-
+title: <center> <h1> Yujia Li </h1> </center>
 ---
-<img src="images/me.jpg" style="float:left;width:25%; border:0px solid; margin-right: 30px" >
 
-<!-- <font size="3"> [I'm an inline-style link](https://www.google.com) --> 
-**PhD candidate**
+<center>![](images/me.jpg){width=250px}</center>
 
-**Department of Biostatistics**
 
-**University of Pittsburgh**
 
-**Email: yul178@pitt.edu**
+<br>
+I am Yujia Li, currently a Ph.D Candidate in Biostatisitics at the School of Public Health, University of Pittsburgh under supervision of [Dr. George C. Tseng](http://www.pitt.edu/~ctseng/). My research focuses on developing novel statistical methods in statistical machine learning, Bayesian analysis, high-dimensional variable selection, Analysis of Multi-Omics Data (Genomics, Transcriptomics, Epigenetics, etc)
 
-**Github: YujiaLi1994**
+In addition to methodological research, I am involved in collaborative data analysis under guidance of [Steffi Oesterreich](https://www.pharmacology.us/Faculty/SteffiOesterreich?AspxAutoDetectCookieSupport=1), [Hung Jung Park](https://publichealth.pitt.edu/home/directory/hyun-jung-park) and [Liza Konnikova](https://medicine.yale.edu/profile/liza_konnikova/), with application to breast cancer and pediatrics metabolomics.
 
-<font size="4">Hello, my name is Yujia Li, a Ph.D Candidate in Biostatisitics at the Department of Biostatistics of the School of Public Health at University of Pittsburgh. I received my Bachelor of Science degree of Applied Mathematics and a minor certificate of Mathematical Finance at Xiamen University. My research focuses on developing novel statistical methods in statistical machine learning, Bayesian analysis, high-dimensional variable selection, Analysis of Multi-Omics Data (Genomics, Transcriptomics, Epigenetics, etc). In addition to research, I like playing tennis, badminton as well as swimming.</font> 
+I received my Bachelor of Science degree of Applied Mathematics (under supervision of [Da Zhou](http://math-faculty.xmu.edu.cn/display.aspx?tid=116&AspxAutoDetectCookieSupport=1)) and a minor certificate of Mathematical Finance at Xiamen University. 
 
-<br />
 
-###Education
+<br>
+I did internship at Abbvie as a Biostatistician from May to August 2020, under supervision of Yunxia Sui, Tian Feng and Yiran (Bonnie) Hu.
 
-<font size="4">Ph.D candidate in Biostatistics, University of Pittsburgh, USA, 2017-present. 
+<br>
+My Resume is available [here](https://yujiali1994.github.io/).
 
-Advisor: George Tseng</font> 
 
-<font size="4">B.S. in Applied Mathematics, Xiamen University, China, 2013-2017.</font> 
 
-<font size="4">Minor in Mathematical Finance, Xiamen University, China, 2015-2017.</font> 
-
-<br />
 

@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -261,6 +264,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -268,6 +334,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -314,26 +390,34 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><center>
-<h1>
-Yujia Li
-</h1>
-</center></h1>
 
 </div>
 
 
-<center>
-<img src="images/me.jpg" width="250" />
-</center>
-<p><br> I am Yujia Li, currently a Ph.D Candidate in Biostatisitics at the School of Public Health, University of Pittsburgh under supervision of <a href="http://www.pitt.edu/~ctseng/">Dr. George C. Tseng</a>. My research focuses on developing novel statistical methods in statistical machine learning, Bayesian analysis, high-dimensional variable selection, Analysis of Multi-Omics Data (Genomics, Transcriptomics, Epigenetics, etc)</p>
-<p>In addition to methodological research, I am involved in collaborative data analysis under guidance of <a href="https://www.pharmacology.us/Faculty/SteffiOesterreich?AspxAutoDetectCookieSupport=1">Steffi Oesterreich</a>, <a href="https://publichealth.pitt.edu/home/directory/hyun-jung-park">Hung Jung Park</a> and <a href="https://medicine.yale.edu/profile/liza_konnikova/">Liza Konnikova</a>, with application to breast cancer and pediatrics metabolomics.</p>
-<p>I received my Bachelor of Science degree of Applied Mathematics (under supervision of <a href="http://math-faculty.xmu.edu.cn/display.aspx?tid=116&amp;AspxAutoDetectCookieSupport=1">Da Zhou</a>) and a minor certificate of Mathematical Finance at Xiamen University.</p>
-<p><br> I did internship at Abbvie as a Biostatistician from May to August 2020, under supervision of Yunxia Sui, Tian Feng and Yiran (Bonnie) Hu.</p>
-<p><br> My Resume is available <a href="https://yujiali1994.github.io/">here</a>.</p>
+<div id="publication" class="section level3">
+<h3>Publication</h3>
+<p>^ indicate co-first authors.</p>
+<ul>
+<li><p><strong>Yujia Li</strong>, Xiangrui Zeng, Chien-wei Lin, George C. Tseng. (2021) Simultaneous estimation of number of clusters and feature sparsity parameter in clustering high-dimensional data. Biometrics, <a href="https://doi.org/10.1111/biom.13449" class="uri">https://doi.org/10.1111/biom.13449</a></p></li>
+<li><p><strong>Yujia Li</strong>, Jessica Toothaker, Collin McCourt, Lael Werner, Scott Snapper, Dror Shouval, Omry Koran, Sameer Agnihorti, George Tseng, Liza Konnikova. (2020) In Utero Human Intestine Harbors Unique Metabolome Including Bacterial Metabolites. JCI Insight. 5:e138751.</p></li>
+<li><p><strong>Yujia Li^</strong>, Tanbin Rahman^, Tianzhou Ma, Lu Tang and George C. Tseng. (2021) A sparse negative binomial mixture model for clustering RNA-seq count data. Biostatistics. Under revision.</p></li>
+<li><p>Tanbin Rahman, Hsin-En Huang, <strong>Yujia Li</strong>, An-shun Tai, Wen-Ping Hsieh, George C. Tseng. (2021) A sparse negative binomial classifier with covariate adjustment for RNA-seq data. Annals of Applied Statistics. Under revision</p></li>
+<li><p>Azadeh Nasrazadani, <strong>Yujia Li</strong>, Yusi Fang, Jennifer M. Atkinson, Joanna S. Lee, Priscilla F. McAuliffe, George Tseng, Adrian V. Lee, Peter C. Lucas, Steffi Oesterreich, Norman Wolmark. (2021+) Comprehensive Clinicopathologic Characterization of Mixed Invasive Ductal Lobular Carcinoma: A Meta-Analysis. Manuscript preparation. <br /></p></li>
+</ul>
+</div>
+<div id="on-going" class="section level3">
+<h3>On-going</h3>
+<ul>
+<li><p>Adaptively Weighted Fisher’s Method (AW-Fisher) With Application for Multivariate Outcome Association in Omics Applications.</p></li>
+<li><p>Outcome-Guidance clustering with joint-modelling.</p></li>
+</ul>
+<p><br /></p>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -366,6 +450,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

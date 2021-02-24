@@ -1,0 +1,94 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_float: true
+
+---
+###Internship 
+Abbvie, Inc, Biostatistician, May-August, 2020
+
+Supervisor: Yunxia Sui, Tian Feng and Yiran (Bonnie) Hu
+
+Worked on missing-data handling in clinical trials.
+
+* Designed and implemented simulations to systematically evaluate the performance of different multiple imputation (MI) methods (MCMC, Monotone and FCS) based on SAS PROC MI, under MAR assumption.
+
+* Evaluated the performance of tipping point analysis and pattern mixture model under MNAR assumption.
+
+###Collaborative experience
+Sep 2017-present, Provide statistical support for multiple principal investigators from different institutions.
+
+principal investigators: [Steffi Oesterreich](https://www.pharmacology.us/Faculty/SteffiOesterreich?AspxAutoDetectCookieSupport=1), [Hung Jung Park](https://publichealth.pitt.edu/home/directory/hyun-jung-park) and [Liza Konnikova](https://medicine.yale.edu/profile/liza_konnikova/)
+
+* Analyze various high-throughput multi-omics datasets, including metabolomics and RNA-Seq data, starting from preprocessing raw data using command-line tools to downstream analysis such as differentially expressed (DE) analysis, pathway enrichment analysis, dimension reduction, clustering analysis, and network analysis.
+
+* Involved in multiple breast cancer projects, such as meta-analytic outcome-guided clustering in breast cancer research, analyzing clinicopathological characterization and clinical outcomes using 20-year cancer registry data from UPMC, transcriptomic landscape with tumor immune infiltration, etc.
+
+* Work on together to prepare peer-reviewed publications and posters.
+
+###Awards
+* ENAR Distinguished Student Paper Award, 2019
+
+* Outstanding Graduate of Xiamen University, 2017
+
+* Meritorious Winner in Mathematical Contest in Modeling, 2016
+
+* The First Prize in Fujian Province in China Undergraduate Mathematical Contest in Modeling, 2015
+
+* Academic Excellence Scholarship-First Prize, 2015
+
+* Academic Excellence Scholarship-First Prize, 2014
+
+* Third Prize in Jing Yun Mathematical Contest in Xiamen University, 2014=
+
+<br />
+
+###Teaching Experience
+* 2021 Spring, BIOST 2094-Advanced R Computing, Teaching Fellow.
+* 2019 Fall, BIOST 2079-Introductory Statistical Learning for Health Science, Teaching Assistant.
+
+<br />
+
+###Conference Presentation
+
+* *Li, Y*, Zeng, X, Lin, C, Tseng, G. (2019) “Simultaneous Estimation of Number of Clusters and Feature Sparsity in Clustering High-Dimensional Data”, Oral presentation on ENAR, Mar 25th, 2019 (student award winner)
+
+<br />
+
+
+###Selected Courses Taken
+
+CMU ML10-725: Convex Optimization, Fall 2019
+
+STAT2194: High-dimensional Statistics, Spring 2019
+
+HUGEN2040: Molecular Basis for Inherited Disease, Fall 2019
+
+<br />
+
+###Paper Review Experience
+
+* Interaction Screening by Kendall's Partial Correlation for Ultrahigh-dimensional Data with Survival Trait, Bioinformatics.
+* Bipartite Tight Spectral Clustering (BiTSC) Algorithm for Identifying Conserved Gene Co-clusters in Two Species, Bioinformatics.
+* A supervised weeding method for high dimensional variable
+clustering with application to job market analysis, Journal of Applied Statistics.
+* HDSI: High dimensional selection with interactions algorithm on feature selection and testing, PLOS ONE.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
