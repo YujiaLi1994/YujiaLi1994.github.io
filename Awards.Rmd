@@ -1,0 +1,27 @@
+---
+output:
+  html_document:
+    toc_float: true
+
+---
+
+
+
+
+
+###Awards
+* ENAR Distinguished Student Paper Award, 2019
+
+* Outstanding Graduate of Xiamen University, 2017
+
+* Meritorious Winner in Mathematical Contest in Modeling, 2016
+
+* The First Prize in Fujian Province in China Undergraduate Mathematical Contest in Modeling, 2015
+
+* Academic Excellence Scholarship-First Prize, 2015
+
+* Academic Excellence Scholarship-First Prize, 2014
+
+* Third Prize in Jing Yun Mathematical Contest in Xiamen University, 2014
+
+<br />

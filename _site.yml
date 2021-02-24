@@ -2,15 +2,19 @@ name: "Home"
 output_dir: "."
 navbar:
   title: "Home"
-  right:
-    - text: "publication"
-      href: publication.html
+  left:
+    - text: "Publication"
+      href: Publication.html
     - text: "Experience"
       href: Experience.html
-    - icon: fa-envelope fa-lg
-      href: mailto:<yul178@pitt.edu.com>
-    - icon: fa-github fa-lg
-      href: http://github.com/YujiaLi1994/
+    - text: "Teaching"
+      href: Teaching.html
+    - text: "Awards"
+      href: Awards.html
+  
+  
+ 
+    
 output:
   html_document:
-    css: bootstrap.css
+    css: jekyll-theme-cayman

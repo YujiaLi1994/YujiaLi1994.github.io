@@ -24,7 +24,7 @@ output:
 * Azadeh Nasrazadani, **Yujia Li**, Yusi Fang, Jennifer M. Atkinson, Joanna S. Lee, Priscilla F. McAuliffe, George Tseng, Adrian V. Lee, Peter C. Lucas, Steffi Oesterreich, Norman Wolmark. (2021+) Comprehensive Clinicopathologic Characterization of Mixed Invasive Ductal Lobular Carcinoma: A Meta-Analysis. Manuscript preparation.
 <br />
 
-###On-going
+###On-going methodological projects
 * Adaptively Weighted Fisher’s Method (AW-Fisher) With Application for Multivariate Outcome Association in Omics Applications.
 
 * Outcome-Guidance clustering with joint-modelling.
