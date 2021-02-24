@@ -6,10 +6,6 @@ output:
 
 ---
 
-
-
-
-
 ###Publication 
 ^ indicate co-first authors.
 
