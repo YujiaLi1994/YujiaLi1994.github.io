@@ -10,21 +10,21 @@ output:
 ###Publication 
 ^ indicate co-first authors.
 
-* **Yujia Li**, Xiangrui Zeng, Chien-Wei Lin, George C. Tseng. (2021) Simultaneous estimation of number of clusters and feature sparsity parameter in clustering high-dimensional data. Biometrics, https://doi.org/10.1111/biom.13449
+* **Yujia Li**, Xiangrui Zeng, Chien-Wei Lin, George C. Tseng. (2021) Simultaneous estimation of cluster number and feature sparsity in high-dimensional data cluster analysis. Biometrics (in press), https://doi.org/10.1111/biom.13449
+
+* **Yujia Li^**, Tanbin Rahman^, Tianzhou Ma, Lu Tang and George C. Tseng. (2021) A sparse negative binomial mixture model for clustering RNA-seq count data. Biostatistics. Accepted.
 
 * **Yujia Li**, Jessica Toothaker, Collin McCourt, Lael Werner, Scott Snapper, Dror Shouval, Omry Koran, Sameer Agnihorti, George Tseng, Liza Konnikova. (2020) In Utero Human Intestine Harbors Unique Metabolome Including Bacterial Metabolites. JCI Insight. 5:e138751.
 
-* **Yujia Li^**, Tanbin Rahman^, Tianzhou Ma, Lu Tang and George C. Tseng. (2021) A sparse negative binomial mixture model for clustering RNA-seq count data. Biostatistics. Under revision.
-
 * Tanbin Rahman, Hsin-En Huang, **Yujia Li**, An-shun Tai, Wen-Ping Hsieh, George C. Tseng. (2021) A sparse negative binomial classifier with covariate adjustment for RNA-seq data. Annals of Applied Statistics. Under revision
 
-* Azadeh Nasrazadani, **Yujia Li**, Yusi Fang, Jennifer M. Atkinson, Joanna S. Lee, Priscilla F. McAuliffe, George Tseng, Adrian V. Lee, Peter C. Lucas, Steffi Oesterreich, Norman Wolmark. (2021+) Comprehensive Clinicopathologic Characterization of Mixed Invasive Ductal Lobular Carcinoma: A Meta-Analysis. Manuscript preparation.
+* Azadeh Nasrazadani, **Yujia Li**, Yusi Fang, Jennifer M. Atkinson, Joanna S. Lee, Priscilla F. McAuliffe, George Tseng, Adrian V. Lee, Peter C. Lucas, Steffi Oesterreich, Norman Wolmark. (2021+) Comprehensive Clinicopathologic Characterization of Mixed Invasive Ductal Lobular Carcinoma: A Meta-Analysis. Manuscript in preparation.
 <br />
 
 ###On-going methodological projects
-* Adaptively Weighted Fisher’s Method (AW-Fisher) With Application for Multivariate Outcome Association in Omics Applications.
+* **Yujia Li** and George C. Tseng (2021+). “Association study between gene expression and multiple phenotypes in omics applications of complex diseases”. Manuscript in preparation
 
-* Outcome-Guidance clustering with joint-modelling.
+* Outcome-Guided clustering with joint-modelling of phenotypes and transcriptomic data.
 
 <br />
 
