@@ -15,7 +15,7 @@ output:
 
 * **Yujia Li^**, Tanbin Rahman^, Tianzhou Ma, Lu Tang and George C. Tseng. (2021) A sparse negative binomial mixture model for clustering RNA-seq count data. Biostatistics. Accepted (https://doi.org/10.1093/biostatistics/kxab025).
 
-* **Yujia Li^**, Jessica Toothaker^, Collin McCourt, Lael Werner, Scott Snapper, Dror Shouval, Omry Koran, Sameer Agnihorti, George Tseng, Liza Konnikova. (2020) In Utero Human Intestine Harbors Unique Metabolome Including Bacterial Metabolites. JCI Insight. (10.1172/jci.insight.138751)
+* **Yujia Li^**, Jessica Toothaker^, Collin McCourt, Lael Werner, Scott Snapper, Dror Shouval, Omry Koran, Sameer Agnihorti, George Tseng, Liza Konnikova. (2020) In Utero Human Intestine Harbors Unique Metabolome Including Bacterial Metabolites. JCI Insight. (https://insight.jci.org/articles/view/138751)
 
 * Tanbin Rahman, Hsin-En Huang, **Yujia Li**, An-shun Tai, Wen-Ping Hsieh, George C. Tseng. (2021) A sparse negative binomial classifier with covariate adjustment for RNA-seq data. Annals of Applied Statistics. Accepted.
 
