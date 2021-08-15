@@ -31,7 +31,7 @@ output:
 <br />
 
 ###Abstract Accepted by Conferences
-* Azadeh Nasrazadani, **Yujia Li**, et al. Abstract PS7-15: Mixed invasive ductal lobular carcinomas (mDLC) are clinically more similar to invasive lobular carcinoma (ILC) than to invasive ductal carcinoma (IDC)[J]. SABCS, 2021. 10.1158/1538-7445.SABCS20-PS7-15
+* Azadeh Nasrazadani, **Yujia Li**, et al. Abstract PS7-15: Mixed invasive ductal lobular carcinomas (mDLC) are clinically more similar to invasive lobular carcinoma (ILC) than to invasive ductal carcinoma (IDC)[J]. SABCS, 2021. DOI: 10.1158/1538-7445.SABCS20-PS7-15
      
 * Azadeh Nasrazadani, **Yujia Li**, et al. "Mixed Invasive Ductal-Lobular Carcinoma: Clinicopathological Characterization and Clinical Outcomes.", S. Journal of Clinical Oncology, 2020.  DOI:10.1200/JCO.2020.38.15_suppl.1085
 
